@@ -1,0 +1,31 @@
+<div class="whole-container">
+    <div class="left-side">
+        <div class="image">
+            <img src="../assets/Group 1.svg" alt="">
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="contents">
+            <div class="header">
+                <h3>Forgot your Password</h3>
+                <p>Please enter the email address you'd like your <br> password reset information sent to</p>
+            </div>
+            <div class="form">
+                <form [formGroup]="reactiveForm">
+                    <div class="form-group">
+                        <label for="email">Enter email address</label>
+                        <div>
+                            <input type="text" placeholder="email" formControlName="email">
+                        </div>
+                    </div>
+                    <button type="button" class="btn" (click)="onSubmit()"> <span>Request Rest Link</span> </button>
+
+                </form>
+                <div class="footer">
+                    <p> <a class="forgot-link" href="login">Back to Login</a> </p>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div>

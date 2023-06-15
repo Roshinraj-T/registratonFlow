@@ -1,0 +1,27 @@
+<div class="whole-container">
+    <div class="left-side">
+        <div class="image">
+            <img src="../assets/Group 1.svg" alt="">
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="contents">
+            <div class="header">
+                <h3>Please Enter Your Password</h3>
+            </div>
+            <div class="form">
+                <form [formGroup]="reactiveForm">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div>
+                            <input type="text" placeholder="password" formControlName="password">
+                        </div>
+                    </div>
+                    <button type="button" class="btn" (click)="onSubmit()"> <span>CREATE ACCOUNT</span> </button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

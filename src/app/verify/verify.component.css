@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.whole-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-side {
+    background-color: #EB5757;
+    width: 50%;
+    height: 100%;
+}
+
+.right-side {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.image img {
+    width: 519.37px;
+    height: 535.89px;
+    /* position: absolute;
+    top: 380.99px; */
+    margin: 71px 153px 84px 30px;
+}
+
+.header {
+    text-align: left;
+}
+
+.header h3 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* Green 1 */
+    
+    color: #219653;
+}
+
+.header p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1B2228;
+}
+.btn {
+ 
+    width: 325px;
+    padding: 3px 98px;
+    background: #2D81F7;
+    border-color: #2D81F7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: white;
+}
+
+.btn span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
