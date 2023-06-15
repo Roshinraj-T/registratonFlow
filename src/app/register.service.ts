@@ -8,17 +8,17 @@ export class RegisterService {
 
   constructor(private http:HttpClient) { }
 
-  url="http://localhost:2500";
+  url="http://localhost:3000/userdetails";
 
   registerUser(data:any){
-    return this.http.post(this.url+"/signUp",data);
+    return this.http.post(this.url+"/signup",data);
   }
 
   verifyEmail(token:string|null){
-    return this.http.put(this.url+`/verify/${token}`,"");
+    return this.http.put(this.url+'/verify/',{token:token});
   }
 
   addPassword(body:any){
-    return this.http.put(this.url+`/addPassword`,body)
+    return this.http.put(this.url+'/updatePassword',body)
   }
 }

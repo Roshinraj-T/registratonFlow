@@ -12,7 +12,7 @@ export class CreateUserComponent {
   reactiveForm:any;
   constructor(private builder:FormBuilder,private service:RegisterService,private router:Router){
     this.reactiveForm=builder.group({
-      username:[],
+      userName:[],
       email:[],
       // password:[]
     })
